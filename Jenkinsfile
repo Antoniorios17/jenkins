@@ -3,16 +3,16 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-      sh 'echo "HELLO WORLD"'
+      sh 'echo "HELLO tyrone"'
       sh '''
-        echo "Thi will list current dir content from latest"
-        ls -lh
+        echo "Welcome to B2"
+        uname -a 
         '''
       }
     }
     stage ('Test') {
       steps {
-      sh 'echo "HELLO TEST"'
+      sh 'echo "HELLO sanderson"'
       sh '''
         echo "This list current dir"
         pwd
