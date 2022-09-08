@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-      sh 'echo "HELLO .WORLD after webhook"'
+      sh 'echo "HELLO .WORLD after webhook  "'
       sh 'echo "Hello"'
       sh '''
         echo "Thi will list current dir content from latest"
